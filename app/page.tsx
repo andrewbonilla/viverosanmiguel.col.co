@@ -1,12 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import HeroCarousel from './components/HeroCarousel';
 import ServicesList from './components/ServicesList';
 
 const servicesData = [
   { slug: "venta-de-material-ornamental", title: "Venta de material ornamental", desc: "Variedad de piedras decorativas, tierra con sustrato, cascarilla, humus de lombriz, abonos, insecticidas y en general el material acorde a la jardinería.", img: "/servicios/venta-de-material-ornamental/servicio_ornamental1.jpg" },
   { slug: "paisajismo", title: "Paisajismo", desc: "Nuestra técnica combina la aplicación del arte, la ciencia y el diseño en la creación de entornos naturales. Realizamos cambios en espacios exteriores utilizando las plantas y recursos naturales adecuados para mejorar sus características físicas y estéticas.", img: "/servicios/paisajismo/servicio_paisajismo1.jpg" },
-  { slug: "cerramientos-en-cerca-viva", title: "Cerramientos en cerca viva", desc: "Sembrado y acondicionamiento (una o varias especies) lineal de arbustos para delimitación de propiedades o espacios.", img: "/servicios/cerramientos-en-cerca-viva/servicio_cerramientos_en_cerca_viva1.png" },
+  { slug: "cerramientos-en-cerca-viva", title: "Cerramientos en cerca viva", desc: "Sembrado y acondicionamiento (una o varias especies) lineal de arbustos para delimitación de propiedades o espacios.", img: "/servicios/cerramientos-en-cerca-viva/servicio_cerramiento3.jpeg" },
   { slug: "asesoria-personalizada", title: "Asesoría personalizada", desc: "Te ayudamos a crear el espacio que siempre has soñado. Acompañamiento en el proceso de selección de plantas y diseño, para que los espacios intervenidos reflejen los gustos y sentimientos del cliente final.", img: "/servicios/asesoria-personalizada/servicio_asesoria_personalizada1.jpg" },
   { slug: "jardineria", title: "Jardinería", desc: "Sembramos plantas ornamentales en áreas abiertas o cerradas, seleccionadas por la belleza de sus flores u hojas, con fines decorativos y de valorización.", img: "/servicios/jardineria/servicio_jardineria1.jpg" },
   { slug: "instalacion-de-cesped", title: "Instalación de césped", desc: "Ofrecemos instalación profesional de césped para jardines, terrazas y zonas verdes. Aseguramos el mejor terreno para que su prado crezca fuerte y con un verde vibrante.", img: "/servicios/instalacion-de-cesped/servicio_instalacion_cespeced1.jpg" }
@@ -24,7 +23,7 @@ export default function Home() {
         </div>
         <div className="top-bar-item">
           <svg className="top-bar-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" /></svg>
-          Fusagasugá: Parcela 9 las brisas de Xochimilco
+          Fusagasugá: Parcela 9 Las Brisas Xochimilco
         </div>
       </div>
 
@@ -74,7 +73,7 @@ export default function Home() {
           </h2>
 
           <p style={{ fontSize: '1.15rem', color: 'white', marginBottom: '50px', maxWidth: '650px', fontWeight: '500', lineHeight: '1.6' }}>
-            Transformamos tus áreas con diseño emocional y moderno de la mano de la naturaleza. Gestiona eficientemente tu jardín y aumenta tu vitalidad.
+            Transformamos tus espacios en experiencias vivas, donde el diseño moderno se encuentra con la esencia de la naturaleza. Creamos ambientes que inspiran bienestar, optimizan la gestión de tu jardín y potencian tu energía vital cada día.
           </p>
 
           <a href="#servicios" style={{ background: '#1c7be3', color: 'white', padding: '16px 40px', fontSize: '1.15rem', fontWeight: 'bold', borderRadius: '12px', textDecoration: 'none', transition: 'background 0.3s', boxShadow: '0 10px 20px rgba(28, 123, 227, 0.4)' }}>
@@ -344,7 +343,7 @@ export default function Home() {
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
                 <svg viewBox="0 0 24 24" style={{ width: '24px', height: '24px', fill: '#0C5C9E' }}><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" /></svg>
-                <span style={{ fontWeight: '600', color: '#333' }}>Fusagasugá: Parcela 9 las brisas de Xochimilco</span>
+                <span style={{ fontWeight: '600', color: '#333' }}>Fusagasugá: Parcela 9 Las Brisas Xochimilco</span>
               </div>
 
             </div>

@@ -38,11 +38,11 @@ const serviciosData = {
   "cerramientos-en-cerca-viva": {
     title: "Cerramientos en cerca viva",
     desc: "Sembrado y acondicionamiento (una o varias especies) lineal de arbustos para delimitación de propiedades o espacios.",
-    img: "/servicios/cerramientos-en-cerca-viva/servicio_cerramientos_en_cerca_viva1.png",
+    img: "/servicios/cerramientos-en-cerca-viva/servicio_cerramiento3.jpeg",
     gallery: [
-      "/servicios/cerramientos-en-cerca-viva/servicio_cerramientos_en_cerca_viva1.png",
-      "/servicios/cerramientos-en-cerca-viva/servicio_cerramientos_en_cerca_viva2.png",
-      "/servicios/cerramientos-en-cerca-viva/servicio_cerramientos_en_cerca_viva3.jpg"
+      "/servicios/cerramientos-en-cerca-viva/servicio_cerramiento1.jpeg",
+      "/servicios/cerramientos-en-cerca-viva/servicio_cerramiento2.jpeg",
+      "/servicios/cerramientos-en-cerca-viva/servicio_cerramiento3.jpeg"
     ]
   },
   "asesoria-personalizada": {
