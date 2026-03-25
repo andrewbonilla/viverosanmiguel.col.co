@@ -84,14 +84,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${service.title} | Vivero Sanmiguel`,
     description: service.desc,
+    keywords: [`${service.title}`, 'servicio vivero', 'jardinería', 'paisajismo', 'Vivero Sanmiguel', 'Colombia'],
+    alternates: {
+      canonical: `https://viverosanmiguel.com/servicios/${slug}`
+    },
     openGraph: {
       title: `${service.title} | Vivero Sanmiguel`,
       description: service.desc,
+      url: `https://viverosanmiguel.com/servicios/${slug}`,
       images: [
         {
           url: service.img,
           width: 1200,
           height: 630,
+          alt: service.title
         }
       ]
     }
@@ -168,7 +174,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <section style={{ padding: '100px 5%', background: 'var(--primary-green)', color: 'white', textAlign: 'center' }}>
         <h2 style={{ fontSize: '3.5rem', marginBottom: '25px', fontFamily: 'var(--font-leaner), sans-serif' }}>¿Listo para empezar tu jardín?</h2>
         <p style={{ fontSize: '1.25rem', marginBottom: '45px', opacity: 0.9 }}>Transformaremos tu espacio con el mejor servicio integral y plantas hermosas.</p>
-        <a href={`https://wa.me/573148210636?text=${encodeURIComponent('Hola! Me interesa cotizar el servicio de ' + service.title)}`} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: 'var(--text-dark)', padding: '16px 45px', borderRadius: '50px', fontSize: '1.15rem', fontWeight: '800', textDecoration: 'none', boxShadow: '0 10px 30px rgba(0,0,0,0.2)', transition: 'transform 0.3s' }} className="hover:scale-105">Cotizar Ahora 🌿</a>
+        <a href={`https://wa.me/573114431005?text=${encodeURIComponent('Hola! Me interesa cotizar el servicio de ' + service.title)}`} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: 'var(--text-dark)', padding: '16px 45px', borderRadius: '50px', fontSize: '1.15rem', fontWeight: '800', textDecoration: 'none', boxShadow: '0 10px 30px rgba(0,0,0,0.2)', transition: 'transform 0.3s' }} className="hover:scale-105">Cotizar Ahora 🌿</a>
       </section>
 
       {/* Shared Footer */}
@@ -186,7 +192,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" /></svg>
               </a>
-              <a href="https://wa.me/573148210636" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
+              <a href="https://wa.me/573114431005" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.71.44 3.38 1.28 4.87L2 22l5.34-1.4c1.45.79 3.09 1.21 4.78 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.46 14.3c-.23.65-1.33 1.22-1.84 1.3-.49.07-1.14.15-3.32-.75-2.63-1.09-4.32-3.79-4.45-3.96-.13-.17-1.06-1.42-1.06-2.7 0-1.28.66-1.92.89-2.18.23-.25.51-.31.68-.31.17 0 .34 0 .49.01.16.01.37-.06.57.42.21.49.71 1.73.77 1.86.06.13.11.28.02.45-.08.17-.13.28-.25.42-.13.15-.27.32-.38.44-.12.13-.25.27-.11.51.14.23.63 1.03 1.36 1.68.94.84 1.71 1.1 1.95 1.22.23.13.37.11.51-.06.13-.17.57-.66.73-.89.15-.23.31-.19.52-.11.21.08 1.32.63 1.55.74.23.11.38.17.44.27.06.09.06.53-.17 1.18z" /></svg>
               </a>
             </div>

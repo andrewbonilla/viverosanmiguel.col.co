@@ -1,5 +1,17 @@
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'Términos de Servicio | Vivero Sanmiguel',
+  description: 'Consulta los términos y condiciones de los servicios de Vivero Sanmiguel, incluyendo jardinería, paisajismo y venta de material ornamental.',
+  robots: {
+    index: true,
+    follow: true
+  },
+  alternates: {
+    canonical: 'https://viverosanmiguel.com/terminos'
+  }
+};
+
 export default function Terminos() {
   return (
     <div style={{ background: '#F9F5F0', minHeight: '100vh', padding: '60px 5%', color: '#333' }}>

@@ -1,5 +1,17 @@
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'Política de Privacidad | Vivero Sanmiguel',
+  description: 'Conoce nuestra política de privacidad. En Vivero Sanmiguel respetamos y protegemos tu información personal y datos de contacto.',
+  robots: {
+    index: true,
+    follow: true
+  },
+  alternates: {
+    canonical: 'https://viverosanmiguel.com/privacidad'
+  }
+};
+
 export default function Privacidad() {
   return (
     <div style={{ background: '#F9F5F0', minHeight: '100vh', padding: '60px 5%', color: '#333' }}>
@@ -41,7 +53,7 @@ export default function Privacidad() {
         <p style={{ lineHeight: '1.8', marginBottom: '20px' }}>
           Si tiene alguna pregunta sobre esta política de privacidad, puede contactarnos en:
           <br /><strong>Email:</strong> viverosanmiguelsys@gmail.com
-          <br /><strong>Teléfono:</strong> 314-821-0636 / 315-354-9902
+          <br /><strong>Teléfono:</strong> +57 311 443 1005
         </p>
       </div>
     </div>

@@ -11,6 +11,15 @@ const servicesData = [
   { slug: "instalacion-de-cesped", title: "Instalación de césped", desc: "Ofrecemos instalación profesional de césped para jardines, terrazas y zonas verdes. Aseguramos el mejor terreno para que su prado crezca fuerte y con un verde vibrante.", img: "/servicios/instalacion-de-cesped/servicio_instalacion_cespeced1.jpg" }
 ];
 
+export const metadata = {
+  title: 'Vivero Sanmiguel - Inicio | Jardinería y Paisajismo',
+  description: 'En Vivero Sanmiguel transformamos tus espacios en experiencias vivas. Ofrecemos venta de material ornamental, jardinería, paisajismo y diseño emocional.',
+  keywords: ['vivero', 'jardinería', 'paisajismo', 'plantas ornamentales', 'Colombia', 'Fusagasugá', 'diseño de jardines', 'cerramientos vivos'],
+  alternates: {
+    canonical: 'https://viverosanmiguel.com/'
+  }
+};
+
 export default function Home() {
 
   return (
@@ -43,7 +52,7 @@ export default function Home() {
             <svg viewBox="0 0 24 24" style={{ width: '28px', height: '28px', fill: 'white' }}><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" /></svg>
             <span>
               <small>Llámanos!</small>
-              314-821-0636
+              +57 311 443 1005
             </span>
           </div>
 
@@ -333,7 +342,7 @@ export default function Home() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
                 <svg viewBox="0 0 24 24" style={{ width: '24px', height: '24px', fill: '#0C5C9E' }}><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" /></svg>
-                <span style={{ fontWeight: '600', color: '#333' }}>314-821-0636 / 315-354-9902</span>
+                <span style={{ fontWeight: '600', color: '#333' }}>+57 311 443 1005</span>
               </div>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
@@ -371,7 +380,7 @@ export default function Home() {
               <a href="https://www.facebook.com/people/Vivero-Sanmiguel/100083385250075/?rdid=po9fLJho0TNVRWBJ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1C4vBXgm6P%2F" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" /></svg>
               </a>
-              <a href="https://wa.me/573148210636" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
+              <a href="https://wa.me/573114431005" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.71.44 3.38 1.28 4.87L2 22l5.34-1.4c1.45.79 3.09 1.21 4.78 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.46 14.3c-.23.65-1.33 1.22-1.84 1.3-.49.07-1.14.15-3.32-.75-2.63-1.09-4.32-3.79-4.45-3.96-.13-.17-1.06-1.42-1.06-2.7 0-1.28.66-1.92.89-2.18.23-.25.51-.31.68-.31.17 0 .34 0 .49.01.16.01.37-.06.57.42.21.49.71 1.73.77 1.86.06.13.11.28.02.45-.08.17-.13.28-.25.42-.13.15-.27.32-.38.44-.12.13-.25.27-.11.51.14.23.63 1.03 1.36 1.68.94.84 1.71 1.1 1.95 1.22.23.13.37.11.51-.06.13-.17.57-.66.73-.89.15-.23.31-.19.52-.11.21.08 1.32.63 1.55.74.23.11.38.17.44.27.06.09.06.53-.17 1.18z" /></svg>
               </a>
             </div>
@@ -409,7 +418,7 @@ export default function Home() {
         </div>
       </footer>
 
-      <a href={`https://wa.me/573148210636?text=${encodeURIComponent('Hola Vivero Sanmiguel, me gustaría recibir más información sobre sus servicios y plantas.')}`} target="_blank" rel="noopener noreferrer" className="whatsapp-float">
+      <a href={`https://wa.me/573114431005?text=${encodeURIComponent('Hola Vivero Sanmiguel, me gustaría recibir más información sobre sus servicios y plantas.')}`} target="_blank" rel="noopener noreferrer" className="whatsapp-float">
         <span style={{ color: 'white', padding: '6px 14px', fontSize: '0.9rem', fontWeight: '700', textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>Escríbenos</span>
         <svg viewBox="0 0 24 24" style={{ width: '32px', height: '32px', fill: 'white', filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))' }}><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.71.44 3.38 1.28 4.87L2 22l5.34-1.4c1.45.79 3.09 1.21 4.78 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.46 14.3c-.23.65-1.33 1.22-1.84 1.3-.49.07-1.14.15-3.32-.75-2.63-1.09-4.32-3.79-4.45-3.96-.13-.17-1.06-1.42-1.06-2.7 0-1.28.66-1.92.89-2.18.23-.25.51-.31.68-.31.17 0 .34 0 .49.01.16.01.37-.06.57.42.21.49.71 1.73.77 1.86.06.13.11.28.02.45-.08.17-.13.28-.25.42-.13.15-.27.32-.38.44-.12.13-.25.27-.11.51.14.23.63 1.03 1.36 1.68.94.84 1.71 1.1 1.95 1.22.23.13.37.11.51-.06.13-.17.57-.66.73-.89.15-.23.31-.19.52-.11.21.08 1.32.63 1.55.74.23.11.38.17.44.27.06.09.06.53-.17 1.18z" /></svg>
       </a>

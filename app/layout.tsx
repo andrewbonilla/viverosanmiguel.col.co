@@ -27,6 +27,19 @@ const leanerTitle = localFont({
 export const metadata: Metadata = {
   title: 'Vivero Sanmiguel - Diseño Emocional',
   description: 'Embellecemos hogares, lugares de trabajo, centros comerciales y más.',
+  keywords: ['vivero', 'jardinería', 'Fusagasugá', 'Bogotá', 'Colombia', 'plantas ornamentales', 'diseño de jardines', 'paisajismo', 'mantenimiento zonas verdes'],
+  authors: [{ name: 'Vivero Sanmiguel' }],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   metadataBase: new URL('https://viverosanmiguel.com'),
   openGraph: {
     title: 'Vivero Sanmiguel - Diseño Emocional',
@@ -43,6 +56,12 @@ export const metadata: Metadata = {
     ],
     locale: 'es_CO',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Vivero Sanmiguel - Diseño Emocional',
+    description: 'Transformamos espacios en modernos lugares llenos de energía vital. Plantas ornamentales, jardinería y paisajismo.',
+    images: ['/qsomos.png'],
   },
 };
 
